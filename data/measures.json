@@ -1,0 +1,214 @@
+{
+    "head_width": {
+        "eq": 0,
+        "m1": "t_L",
+        "m2": "t_R"
+    },
+    "head_height": {
+        "eq": 0,
+        "m1": "tr",
+        "m2": "gn"
+    },
+    "lip_width": {
+        "eq": 0,
+        "m1": "ch_L",
+        "m2": "ch_R"
+    },
+    "lip_height": {
+        "eq": 0,
+        "m1": "mt2",
+        "m2": "mb2"
+    },
+    "upper_lip_height": {
+        "eq": 1,
+        "m1": "mt2",
+        "m2": "mb2"
+    },
+    "nose_width": {
+        "eq": 0,
+        "m1": "al_L",
+        "m2": "al_R"
+    },
+    "nose_height": {
+        "eq": 0,
+        "m1": "n",
+        "m2": "prn"
+    },
+    "nose_depth": {
+        "eq": 6,
+        "m1": "prn",
+        "m2": "n"
+    },
+    "eyes_width": {
+        "eq": 2,
+        "m1": "ex_R",
+        "m2": "en_R",
+        "m3": "ex_L",
+        "m4": "en_L"
+    },
+    "eyes_height": {
+        "eq": 2,
+        "m1": "ps_R",
+        "m2": "pi_R",
+        "m3": "ps_L",
+        "m4": "pi_L"
+    },
+    "ears_height": {
+        "eq": 2,
+        "m1": "sa_L",
+        "m2": "sba_L",
+        "m3": "sa_R",
+        "m4": "sba_R"
+    },
+    "ears_width": {
+        "eq": 2,
+        "m1": "t_L",
+        "m2": "sca_L",
+        "m3": "t_R",
+        "m4": "sca_R"
+    },
+    "eyebrows_height": {
+        "eq": 2,
+        "m1": "ps_L",
+        "m2": "pi_L",
+        "m3": "ps_R",
+        "m4": "pi_R"
+    },
+    "eyebrows_width": {
+        "eq": 0,
+        "m1": "ft_L",
+        "m2": "ft_R"
+    },
+    "UpperFaceHeight": {
+        "eq": 0,
+        "m1": "tr",
+        "m2": "n"
+    },
+    "NoseLength": {
+        "eq": 0,
+        "m1": "n",
+        "m2": "sn"
+    },
+    "FaceWidth": {
+        "eq": 0,
+        "m1": "ex_L",
+        "m2": "ex_R"
+    },
+    "BizygomaticBreadth": {
+        "eq": 0,
+        "m1": "zy_L",
+        "m2": "zy_R"
+    },
+    "BigonialBreadth": {
+        "eq": 0,
+        "m1": "go_L",
+        "m2": "go_R"
+    },
+    "MaximumFrontalBreadth": {
+        "eq": 0,
+        "m1": "zf_L",
+        "m2": "zf_R"
+    },
+    "PhiltrumWidth": {
+        "eq": 0,
+        "m1": "cph_L",
+        "m2": "cph_R"
+    },
+    "OrbitsIntercanthalWidth": {
+        "eq": 0,
+        "m1": "en_L",
+        "m2": "en_R"
+    },
+    "NoseProtrusion": {
+        "eq": 0,
+        "m1": "prn",
+        "m2": "sn"
+    },
+    "BiocularWidthTotalFaceHeightIndex": {
+        "eq": 3,
+        "m1": "ex_L",
+        "m2": "ex_R",
+        "m3": "tr",
+        "m4": "gn"
+    },
+    "NasalWidthRootWidth": {
+        "eq": 3,
+        "m1": "al_L",
+        "m2": "al_R",
+        "m3": "mf_L",
+        "m4": "mf_R"
+    },
+    "NasalWidthLengthofBridge": {
+        "eq": 3,
+        "m1": "al_L",
+        "m2": "al_R",
+        "m3": "n",
+        "m4": "prn"
+    },
+    "NasalRootwidthWidthofNostril": {
+        "eq": 3,
+        "m1": "mf_L",
+        "m2": "mf_R",
+        "m3": "ac_L",
+        "m4": "ac_R"
+    },
+    "LengthofNasalBridgeWidthofNostril": {
+        "eq": 3,
+        "m1": "n",
+        "m2": "prn",
+        "m3": "ac_L",
+        "m4": "ac_R"
+    },
+    "NasalRootwidthLengthofBridge": {
+        "eq": 3,
+        "m1": "mf_L",
+        "m2": "mf_R",
+        "m3": "n",
+        "m4": "prn"
+    },
+    "NasalWidthWidthofNostril": {
+        "eq": 3,
+        "m1": "al_L",
+        "m2": "al_R",
+        "m3": "ac_L",
+        "m4": "ac_R"
+    },
+    "EarLengthToNoseLength": {
+        "eq": 4,
+        "m1": "sa_L",
+        "m2": "sba_L",
+        "m3": "sa_R",
+        "m4": "sba_R",
+        "m5": "n",
+        "m6": "sn"
+    },
+    "InterpupillaryDistance": {
+        "eq": 5,
+        "m1": "ex_L",
+        "m2": "en_L",
+        "m3": "ps_L",
+        "m4": "pi_L",
+        "m5": "ex_R",
+        "m6": "en_R",
+        "m7": "ps_R",
+        "m8": "pi_R"
+    },
+    "EyeWidthToHeight": {
+        "eq": 7,
+        "m1": "en_L",
+        "m2": "ex_L",
+        "m3": "ps_L",
+        "m4": "pi_L",
+        "m5": "en_R",
+        "m6": "ex_R",
+        "m7": "ps_R",
+        "m8": "pi_R"
+    },
+    "FaceWidthToHeight": {
+        "eq": 3,
+        "m1": "go_L",
+        "m2": "go_R",
+        "m3": "tr",
+        "m4": "gn"
+    }
+}

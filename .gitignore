@@ -1,0 +1,4 @@
+.vscode/
+**/__pycache__/**
+data/mesh_data/
+/data/out_face_model/
