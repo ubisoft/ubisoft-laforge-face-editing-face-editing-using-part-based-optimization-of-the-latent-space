@@ -152,6 +152,17 @@ def select_idx(_, value):
 
 def part_lat_indices():
     idx = cc.vert_to_part[sel_idx][0]
+    
+    # Patchy fix to ensure we modify the correct latent part during optimization
+    if idx == 3:
+       idx = 4
+    elif idx == 6:
+       idx = 3
+    elif idx == 4:
+       idx = 0
+    elif idx == 0:
+       idx = 6
+       
     return idx * part_latent_size, idx * part_latent_size + part_latent_size
 
 # --------------------------------------------------------------------
