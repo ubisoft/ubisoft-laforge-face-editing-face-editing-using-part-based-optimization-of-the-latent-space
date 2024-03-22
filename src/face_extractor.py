@@ -20,6 +20,9 @@ heads_path = 'empty'
 root = rf'{os.path.abspath(os.path.dirname(__file__))}/..'
 data_path = rf'{root}/data'
 
+# Ensure folder is created before writing to it
+if not os.path.exists(rf'{data_path}//mesh_data//faces'):
+    os.makedirs(rf'{data_path}//mesh_data//faces')
 
 vert_map = None
 part_dict = {}
