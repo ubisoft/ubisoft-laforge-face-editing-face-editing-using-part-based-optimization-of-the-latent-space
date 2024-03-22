@@ -7,7 +7,7 @@ pandas==1.4.3
 PySide6>=6.5.0
 PyWavefront==1.3.3
 scikit_learn==1.2.2
-scipy==1.9.1
+scipy==1.11.1
 tinyobjloader==2.0.0rc6
 tqdm==4.62.3
 trimesh==3.12.7
