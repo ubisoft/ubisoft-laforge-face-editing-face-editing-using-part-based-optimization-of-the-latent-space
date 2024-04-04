@@ -19,7 +19,7 @@ def load_face_and_parts(data_path, count, split=0.8):
         mesh = om.read_trimesh(rf'{data_path}/mesh_data/faces/face ({i}).obj')
         faces.append(mesh.points().astype('float32').flatten())
 
-        for path in glob(rf'{data_path}/parts_info/*'):
+        for path in sorted(glob(rf'{data_path}/parts_info/*')):
             part_name = os.path.basename(os.path.normpath(path)).split('.')[0]
 
             if part_name not in parts_map:
@@ -38,7 +38,7 @@ def load_face_and_parts(data_path, count, split=0.8):
     train_part_map = {}
     test_part_map = {}
 
-    for path in glob(rf'{data_path}/parts_info/*'):
+    for path in sorted(glob(rf'{data_path}/parts_info/*')):
         part_name = os.path.basename(os.path.normpath(path)).split('.')[0]
         scaler = StandardScaler()
         parts_map[part_name] = scaler.fit_transform(np.array(parts_map[part_name]))
