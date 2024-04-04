@@ -26,7 +26,7 @@ device = torch.device('cpu' if FORCE_CPU else 'cuda', 0)
 print(device)
 
 
-root = rf'{os.getcwd()}/..'
+root = rf'{os.path.abspath(os.path.dirname(__file__))}/..'
 data_path = rf'{root}/data'
 out_dir = rf'{data_path}/out_face_model'
 logs_dir = out_dir + '/logs'
@@ -61,7 +61,7 @@ parts_names = []
 parts_template = []
 vert_map = np.loadtxt(rf'{data_path}/vert_map.csv', dtype=np.uint32)
 
-for path in glob(rf'{data_path}/parts_info/*'):
+for path in sorted(glob(rf'{data_path}/parts_info/*')):
     verts = np.loadtxt(path, dtype=np.uint32)
     for idx, vert in enumerate(verts):
         verts[idx] = vert_map[vert]
@@ -133,7 +133,7 @@ K = 6
 in_channels = 3
 part_latent_size = 8
 out_channels = [16, 32]
-epochs = 10
+epochs = 73
 
 lr = 8e-4
 lr_decay = 0.99

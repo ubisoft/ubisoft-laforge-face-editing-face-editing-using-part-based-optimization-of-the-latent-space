@@ -22,7 +22,7 @@ root = rf'{os.path.abspath(os.path.dirname(__file__))}/..'
 data_path = rf'{root}/data'
 out_dir = rf'{data_path}/out_face_model'
 
-model_path = rf'{data_path}/pretrained/model.pt'
+model_path = rf'{data_path}/out_face_model/checkpoints/checkpoint1_73.pt'
 
 logs_dir = out_dir + '/logs'
 checkpoints_dir = out_dir + '/checkpoints'
@@ -50,7 +50,7 @@ part_verts = []
 part_template = []
 vert_map = np.loadtxt(vert_map_path, dtype=np.uint32)
 
-for path in glob(parts_info_path):
+for path in sorted(glob(parts_info_path)):
     part_name = os.path.basename(os.path.normpath(path)).split('.')[0]
     verts = np.loadtxt(path, dtype=np.uint32)
     for idx, vert in enumerate(verts):
